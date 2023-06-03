@@ -19,7 +19,7 @@ header h1 {
   display: flex;
   justify-content: center;
   color: #00f7ff;
-  font-size: 4rem;
+  font-size: 6rem;
   padding-top: 1rem;
   text-shadow: 10px 10px 10px rgb(255, 9, 194);
 }
@@ -43,12 +43,13 @@ header h1 {
 .studies,
 .projects {
   padding-bottom: 6rem;
-  background: linear-gradient(to right, #00f2fa, #f70e82);
+  background: linear-gradient(to right, #01d0f5, black, #f700b9);
 }
 
 .studies h2,
 .projects h2 {
   text-align: center;
+  font-size: 65px;
   color: rgb(6, 252, 252);
   padding-top: 3rem;
   text-shadow: 10px 10px 10px #f501b8;
@@ -58,8 +59,25 @@ header h1 {
   width: 10rem;
 }
 
+.card-title {
+  color: #f501b8;
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px #ea00ff8a;
+}
+
+.card-text {
+  color: #0051ff;
+  text-shadow: 5px 5px 5px #00ccff94;
+  font-size: 25px;
+}
+
+/* .card img {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+} */
+
 .projects {
-  background: linear-gradient(to right, #f70e82, #00e9fa);
+  background: linear-gradient(to right, #f700b9, black, #01d0f5);
 }
 
 footer {
