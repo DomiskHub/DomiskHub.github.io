@@ -3,13 +3,19 @@
 * {
   font-family: "Orbitron", sans-serif;
 }
+
 body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
   background-image: url(/assets/img/1054256.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.header h1 {
+header h1 {
   display: flex;
   justify-content: center;
   color: #00f7ff;
@@ -26,10 +32,32 @@ body {
 }
 
 .profile p {
-  margin-top: 20rem;
+  margin-top: 15rem;
   text-shadow: 10px 10px 10px rgb(2, 132, 165);
 }
 
 .profile img {
   width: 600px;
+}
+
+.studies {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.studies h2 {
+  text-align: center;
+  color: rgb(6, 252, 252);
+  padding-top: 3rem;
+}
+
+.studies2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+}
+
+.studiesImg {
+  width: 10rem;
 }
