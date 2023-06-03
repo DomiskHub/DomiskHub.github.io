@@ -40,24 +40,42 @@ header h1 {
   width: 600px;
 }
 
-.studies {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
+.studies,
+.projects {
+  padding-bottom: 6rem;
+  background: linear-gradient(to right, #00f2fa, #f70e82);
 }
 
-.studies h2 {
+.studies h2,
+.projects h2 {
   text-align: center;
   color: rgb(6, 252, 252);
   padding-top: 3rem;
-}
-
-.studies2 {
-  display: flex;
-  justify-content: space-around;
-  padding: 5rem;
+  text-shadow: 10px 10px 10px #f501b8;
 }
 
 .studiesImg {
   width: 10rem;
+}
+
+.projects {
+  background: linear-gradient(to right, #f70e82, #00e9fa);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+footer p {
+  color: #ff09c2;
+  font-size: 20px;
+}
+
+.icons a {
+  font-size: 30px;
+  color: #ff09c2;
 }
