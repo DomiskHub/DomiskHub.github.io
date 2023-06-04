@@ -42,8 +42,9 @@ header h1 {
 
 .studies,
 .projects {
-  padding-bottom: 6rem;
+  padding-bottom: 10rem;
   background: linear-gradient(to right, #01d0f5, black, #f700b9);
+  padding-top: 5rem;
 }
 
 .studies h2,
@@ -85,7 +86,7 @@ footer {
   justify-content: space-between;
   padding: 2rem;
   padding-left: 5rem;
-  padding-right: 5rem;
+  padding-right: 10rem;
 }
 
 footer p {
